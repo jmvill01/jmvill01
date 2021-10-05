@@ -1,1 +1,15 @@
+p {
+    background-color: lightgreen
+}
 
+h1 {
+    font-size: 128px;
+}
+
+.italics-text {
+    font-style: italics;
+}
+
+.with-border {
+    border: 4px dashed green;
+}
