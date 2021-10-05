@@ -3,7 +3,7 @@ p {
 }
 
 h1 {
-    font-size: 128px;
+    font-size: 64px;
 }
 
 .italics-text {
@@ -13,3 +13,41 @@ h1 {
 .with-border {
     border: 4px dashed green;
 }
+
+.with-border-blue {
+    border: 4px dashed lightblue;
+}
+
+.with-rounded-border {
+    border: 4px dotted green;
+    border-radius: 10px;
+}
+
+#site-title {
+    color: goldenrod;
+}
+
+p.italics-text {
+    font-weight: bold;
+}
+
+h1#site-title {
+    border: 4px dotted green;
+}
+
+.italics-text.with-border {
+
+}
+
+.italics-text p {
+    color: tomato;
+}
+
+.italics-text > p {
+   background-color: lightblue;
+}
+
+body {
+    font-family: Arial;
+}
+
