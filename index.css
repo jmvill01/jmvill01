@@ -51,3 +51,23 @@ body {
     font-family: Arial;
 }
 
+.outer-box {
+    width: 200px;
+    height: 100px;
+    /* padding: 10px;
+        padding: 10px 25px;
+    */
+    padding: 10px 25px 0 100px;
+    border: 2px solid magenta;
+}
+
+.special-outer-box {
+    border: 1px solid pink;
+}
+
+.inner-p {
+    border: 1px solid black;
+    padding: 10px;
+    display: inline-block;
+}
+
